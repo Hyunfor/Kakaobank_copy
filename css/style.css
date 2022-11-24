@@ -344,35 +344,48 @@ label[for] {
   width: 1080px;
 }
 
+/* 탑바 */
 .top-bar {
   height: 80px;
 }
-
+/* 서류제출하기 */
 .top-bar .btn-submit-doc > span {
   background-color: #fede22;
   padding: 10px 17px;
   border-radius: 20px;
 }
-
+/* 메뉴 */
 .top-bar .menu-box-1 {
   margin-right: 10px;
 }
-
-.top-bar .menu-box-1 > ul > li {
+.top-bar .menu-box-1 > ul > li{
   margin: 0 10px;
   padding: 0 10px;
 }
-
-.top-bar .menu-box-1 > ul > li:hover{
+.top-bar .menu-box-1 > ul > li:hover {
   border-bottom: 2px solid black;
 }
-
 .top-bar .menu-box-1 > ul > li > a:hover {
   text-decoration: underline;
 }
 
+.top-bar .menu-box-1 > ul > li > div {
+  display: none;
+  position: absolute;
+  background-color: #afafaf;
+  left: 0;
+  width: 100%;
+}
+
+.top-bar .menu-box-1 > ul > li:hover > div {
+  display: block;
+}
+
+
+/* 메뉴 끝 */
+/* 배경이미지 */
 .page-1 {
-  background-color: #ffef6b;
+  background-color: #f33f44;
   height: 720px;
 }
 
