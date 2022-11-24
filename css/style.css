@@ -345,6 +345,37 @@ label[for] {
 }
 
 .top-bar {
-  height: 100px;
-  background-color: pink;
+  height: 80px;
+}
+
+.top-bar .btn-submit-doc > span {
+  background-color: #fede22;
+  padding: 10px 17px;
+  border-radius: 20px;
+}
+
+.top-bar .menu-box-1 {
+  margin-right: 10px;
+}
+
+.top-bar .menu-box-1 > ul > li {
+  margin: 0 10px;
+  padding: 0 10px;
+}
+
+.top-bar .menu-box-1 > ul > li:hover{
+  border-bottom: 2px solid black;
+}
+
+.top-bar .menu-box-1 > ul > li > a:hover {
+  text-decoration: underline;
+}
+
+.page-1 {
+  background-color: #ffef6b;
+  height: 720px;
+}
+
+.page-1 > .con{
+  width: 1200px;
 }
