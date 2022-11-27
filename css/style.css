@@ -347,6 +347,8 @@ label[for] {
 /* 탑바 */
 .top-bar {
   height: 80px;
+}.top-bar {
+  height: 80px;
 }
 /* 서류제출하기 */
 .top-bar .btn-submit-doc > span {
@@ -358,34 +360,72 @@ label[for] {
 .top-bar .menu-box-1 {
   margin-right: 10px;
 }
-.top-bar .menu-box-1 > ul > li{
+.top-bar .menu-box-1 > ul > li {
   margin: 0 10px;
   padding: 0 10px;
 }
-.top-bar .menu-box-1 > ul > li:hover {
+
+.top-bar .menu-box-1 > ul > li > a {
+  box-sizing: border-box;
+  border-top : 2px solid transparent;
+  border-bottom: 2px solid transparent;
+}
+.top-bar .menu-box-1  ul > li > a {
+  text-align: center;
+}
+
+.top-bar .menu-box-1 > ul > li:hover > a {
   border-bottom: 2px solid black;
 }
-.top-bar .menu-box-1 > ul > li > a:hover {
+
+.top-bar .menu-box-1 ul > li > a:hover {
   text-decoration: underline;
 }
 
 .top-bar .menu-box-1 > ul > li > div {
+  padding: 40px 0;
   display: none;
   position: absolute;
-  background-color: #afafaf;
+  background-color: white;
   left: 0;
   width: 100%;
+  border-top: 1px solid #afafaf;
 }
+
+
 
 .top-bar .menu-box-1 > ul > li:hover > div {
   display: block;
 }
 
+/* .top-bar .menu-box-1 > ul > li > div > div > ul.items-4 > li {
+  width: 25%;
+}
+
+.top-bar .menu-box-1 > ul > li > div > div > ul.items-6 > li {
+  width: 16.6667%;
+} */
+
+.top-bar .menu-box-1 > ul > li > div > div > ul > li{
+/*   flex-grow:1; */
+  flex:1 0 0;
+}
+
+.top-bar .menu-box-1 > ul > li > div > div > ul > li > a  {
+  font-weight: bold;
+  font-size: 1.1rem;  
+  margin: 17px;
+}
+
+.top-bar .menu-box-1 > ul > li > div > div > ul > li > ul > li > a  {
+  color:#444444;
+  margin: 20px;
+}
 
 /* 메뉴 끝 */
 /* 배경이미지 */
 .page-1 {
-  background-color: #f33f44;
+  background-color: #FFEF6B;
   height: 720px;
 }
 
